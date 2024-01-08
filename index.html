@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="빽다방" />
+  <meta property="og:title" content="Paikdabang" />
+  <meta property="og:description" content="균형잡힌 바디감으로 긴 여운을 남기는 빽다방 커피를 만나보세요." />
+  <meta property="og:image" content="../img/플러스오버시icon.png" />
+  <meta property="og:url" content="https://paikdabang.com/" />
+  <!--//Open Graph-->  
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- //Montserrat폰트 -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- notosans폰트 -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <!-- //Nanum Myeonqjo 폰트 -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- //swipergallery  -->
+
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <!-- //favicon -->
+    
+    <link rel="stylesheet" href="css/main.css">
+    <!-- //css링크 -->
+    
+  <title>빽다방 클론코딩</title>
+</head>
+<body>
+  <div id="wrap">
+    <div class="header">
+      <div class="header_inner">
+        <div class="header_container">
+          <h1 class="logo">
+            <a href="#"><img src="img/logo206x70.png" alt="빽다방메인로고"></a>
+          </h1>
+          <!-- //logo -->
+          <ul class="top_bar">
+            <li>
+              <a href="#">더본코리아</a>
+            </li>
+            <li class="snstop facebook">
+              <a href="#">facebook</a>
+            </li>
+            <li class="snstop insta">
+              <a href="#">insta</a>
+            </li>
+          </ul>
+          <!-- //top_bar -->
+          <div class="mobile_nav">
+            <ul>
+              <li><a href="#">빽다방</a>
+                <ul class="mobile_submenu">
+                  <li><a href="#">CEO 인사말</a></li>
+                  <li><a href="#">빽다방 소개</a></li>
+                  <li><a href="#">멤버십 / 앱 소개</a></li>
+                  <li><a href="#">커피 이야기</a></li>
+                  <li><a href="#">교육 이야기</a></li>
+                </ul>
+              </li>
+              <li><a href="#">메뉴</a>
+                <ul class="mobile_submenu">
+                  <li><a href="#">신메뉴</a></li>
+                  <li><a href="#">커피</a></li>
+                  <li><a href="#">음료</a></li>
+                  <li><a href="#">아이스크림/디저트</a></li>
+                  <li><a href="#">빽스치노</a></li>
+                </ul>
+              </li>
+              <li><a href="#">소식</a>
+                <ul class="mobile_submenu">
+                  <li><a href="#">소식</a></li>
+                  <li><a href="#">이벤트</a></li>
+                  <li><a href="#">친절 우수매장</a></li>
+                </ul>
+              </li>
+              <li><a href="#">커뮤니티</a>
+                <ul class="mobile_submenu">
+                  <li><a href="#">커피 클래스</a></li>
+                </ul>
+              </li>
+              <li><a href="#">매장안내</a>
+                <ul class="mobile_submenu">
+                  <li><a href="#">매장찾기</a></li>
+                </ul>
+              </li>
+              <li><a href="#">창업안내</a>
+                <ul class="mobile_submenu">
+                  <li><a href="#">왜 빽다방인가요?</a></li>
+                  <li><a href="#">창업상담 신청</a></li>
+                  <li><a href="#">창업절차 및 조건</a></li>
+                  <li><a href="#">인테리어</a></li>
+                </ul>
+              </li>
+              <li><a href="#">고객의 소리</a></li>
+            </ul>
+          </div>
+          <!-- //mobile_nav -->
+          <div class="web_nav">
+            <ul>
+              <li><a href="#">빽다방</a>
+                <ul class="web_submenu">
+                  <li><a href="#">CEO 인사말</a></li>
+                  <li><a href="#">빽다방 소개</a></li>
+                  <li><a href="#">멤버십 / 앱 소개</a></li>
+                  <li><a href="#">커피 이야기</a></li>
+                  <li><a href="#">교육 이야기</a></li>
+                </ul>
+              </li>
+              <li><a href="#">메뉴</a>
+                <ul class="web_submenu">
+                  <li><a href="#">신메뉴</a></li>
+                  <li><a href="#">커피</a></li>
+                  <li><a href="#">음료</a></li>
+                  <li><a href="#">아이스크림/디저트</a></li>
+                  <li><a href="#">빽스치노</a></li>
+                </ul>
+              </li>
+              <li><a href="#">소식</a>
+                <ul class="web_submenu">
+                  <li><a href="#">소식</a></li>
+                  <li><a href="#">이벤트</a></li>
+                  <li><a href="#">친절 우수매장</a></li>
+                </ul>
+              </li>
+              <li><a href="#">커뮤니티</a>
+                <ul class="web_submenu">
+                  <li><a href="#">커피 클래스</a></li>
+                </ul>
+              </li>
+              <li><a href="#">매장안내</a>
+                <ul class="web_submenu">
+                  <li><a href="#">매장찾기</a></li>
+                </ul>
+              </li>
+              <li><a href="#">창업안내</a>
+                <ul class="web_submenu">
+                  <li><a href="#">왜 빽다방인가요?</a></li>
+                  <li><a href="#">창업상담 신청</a></li>
+                  <li><a href="#">창업절차 및 조건</a></li>
+                  <li><a href="#">인테리어</a></li>
+                </ul>
+              </li>
+              <li><a href="#">고객의 소리</a></li>
+            </ul>
+          </div>
+          <!-- //web_nav -->
+        </div>
+        <!-- //header_container -->
+        <div class="mobile_button">
+          <div></div>
+        </div>
+        <!-- //mobile_button -->
+      </div>
+      <!-- //header_inner -->
+    </div>
+    <!-- //header -->
+    <div class="main">
+      <div class="main_inner">
+        <div class="top_link">
+          <ul>
+            <li><a href="#"><img src="img/link1_140x140presentation_btn.png" alt="창업설명회 링크 이미지"></a></li>
+            <li><a href="#"><img src="img/link2_140x140counsel_btn.png" alt="창업상담신청 링크 이미지"></a></li>
+          </ul>
+        </div>
+        <!-- //top_link -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="mobile_slide" src="img/slider1_mobile_main_크룽지.1000x1000.jpg" alt="크룽지 모바일 슬라이더이미지">
+              <img class="pc_slide" src="img/sldier1_pc_크룽지-1920x600.jpg" alt="크룽지 pc 슬라이더이미지">
+            </div>
+            <div class="swiper-slide">
+              <img class="mobile_slide" src="img/slider2_mobile_원조커피제로슈거_1000x1000.jpg" alt="원조커피제로슈거 모바일 슬라이더이미지">
+              <img class="pc_slide" src="img/slider2_pc_원조커피제로슈거_1920x600.jpg" alt="원조커피제로슈거 pc 슬라이더이미지">
+            </div>
+            <div class="swiper-slide">
+              <img class="mobile_slide" src="img/slider3_mobile_멤버십활성화_1000x1000.jpg" alt="맴버쉽활성화 모바일 슬라이더이미지">
+              <img class="pc_slide" src="img/slider3_pc_멤버십활성화-1920x600.jpg" alt="멤버쉽활성화 pc 슬라이더이미지">
+            </div>
+            <div class="swiper-slide">
+              <img class="mobile_slide" src="img/slider4_mobile_명란청양고추소금빵-1000x1000.jpg" alt="명란청양고추소금빵 모바일 슬라이더이미지">
+              <img class="pc_slide" src="img/slider4_pc_명란청양고추소금빵_1920x600.jpg" alt="명란청양고추소금빵 pc 슬라이더이미지">
+            </div>
+            <div class="swiper-slide">
+              <img class="mobile_slide" src="img/slider5_mobile-뱅쇼-1000x1000.jpg" alt="뱅쇼 모바일 슬라이더이미지">
+              <img class="pc_slide" src="img/slider5_pc뱅쇼_1920x600.jpg" alt="뱅쇼 pc 슬라이더이미지">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="autoplay-progress">
+            <svg viewBox="0 0 48 48">
+              <circle cx="24" cy="24" r="20"></circle>
+            </svg>
+            <span></span>
+          </div>
+        </div>
+        <!-- //slider -->
+        <div class="section">
+          <div class="section1">
+            <div class="section1_container1">
+              <a href="#">
+                <div class="contents1">
+                  <dl>
+                    <dt>PAIK'S COFFEE<br>STORY</dt>
+                    <dd>균형잡힌 바디감으로 긴 여운을 남기는 빽다방 커피를 만나보세요.</dd>
+                  </dl>
+                </div>
+              </a>
+              <!-- //con1 -->
+              <a class="view_btn" href="#"></a>
+            </div>
+            <!-- //section1_container1 -->
+            <div class="section1_container2">
+              <a href="#">
+                <div class="contents2">
+                  <dl>
+                    <dt>PAIK'S BRAND<br>STORY</dt>
+                    <dd>합리적인 가격으로 만나는 맛있고 든든한 빽다방</dd>
+                  </dl>
+                </div>
+              </a>
+              <!-- //cont2 -->
+              <a class="view_btn" href="#"></a>
+            </div>
+            <!-- //section1_container2 -->
+          </div>
+          <!-- //section1 -->
+          <div class="section2">
+            <div class="section2_container3">
+              <a href="#">
+                <div class="contents3">
+                  <dl>
+                    <dt>FRESH <br>COFFEE</dt>
+                    <dd>신선한 뉴크롬 원두를 사용하여 <br> 추출한 커피메뉴!</dd>
+                  </dl>
+                  <img class="pc" src="img/banner1_pc_1920x600.jpg" alt="fresh coffee pc용 배너이미지">
+                  <img class="mo" src="img/banner1_mobile_760x400.jpg" alt="fresh coffee 모바일용 배너이미지">
+                </div>
+              </a>
+              <!-- //cont3 -->
+              <a class="view_btn" href="#"></a>
+            </div>
+            <!-- //section2_container3 -->
+          </div>
+          <!-- //section2 -->
+          <div class="section3">
+            <div class="section3_container4">
+              <a href="#">
+                <div class="contents4">
+                  <dl>
+                    <dt>VARIOUS <br>BEVERAGE</dt>
+                    <dd>에이드, 티, 주스 등 취향대로 <br> 골라 먹는 즐거움!</dd>
+                  </dl>
+                  <img class="pc" src="img/banner2_pc_1148x600.jpg" alt="various beverage pc용 배너이미지">
+                  <img class="mo" src="img/banner2_mobile_760x400.jpg" alt="various beverage 모바일용 배너이미지">
+                </div>
+              </a>
+              <!-- //cont4 -->
+              <a class="view_btn" href="#"></a>
+            </div>
+            <!-- //section3_container4 -->
+            <div class="section3_container5">
+              <a href="#">
+                <div class="contents5">
+                  <dl>
+                    <dt>SWEET <br>PAIK'S CCINO</dt>
+                    <dd>달콤 시원한 빽다방 <br> 시그니처 메뉴!</dd>
+                  </dl>
+                  <img class="pc" src="img/banner3_pc_762x600.jpg" alt="sweet paik's ccino pc용 배너이미지">
+                  <img class="mo" src="img/banner3_mobile_760x400.jpg" alt="sweet paik's ccino 모바일용 배너이미지">
+                </div>
+              </a> 
+              <!-- //cont5 -->
+              <a class="view_btn" href="#"></a>
+            </div>
+            <!-- //section3_container5 -->
+          </div>
+          <!-- //section3 -->
+          <div class="section4">
+            <div class="section4_right">
+              <a href="#">
+                <div class="contents6">
+                  <dl>
+                    <dt>TASTY <br>ICE CREAM /<br>DESSERT</dt>
+                    <dd>달콤한 아이스크림부터 <br> 든든한 브레드까지!</dd>
+                  </dl>
+                  <img class="pc" src="img/banner4_pc_1020x600.jpg" alt="tasty ice cream dessert pc용 배너이미지">
+                  <img class="mo" src="img/banner4_mobile_760x400.jpg" alt="tasty ice cream desser 모바일용 배너이미지">
+                </div>
+              </a>
+              <!-- //cont6 -->
+              <a class="view_btn" href="#"></a>
+            </div>
+            <!-- //section_right -->
+            <div class="section4_left">
+              <a href="#">
+                <div class="contents7">
+                  <dl>
+                    <dt>FRANCHISE</dt>
+                    <dd>빽다방 창업안내를 도와드리겠습니다.</dd>
+                  </dl>
+                </div>
+              </a>
+              <!-- //cont7 -->
+              <a class="view_btn" href="#"></a>
+              <!-- //cont7 btn-->
+                <div class="contents8">
+                  <dl>
+                    <dt>STORE</dt>
+                    <dd>원하시는 지역의 매장을 검색해보세요!</dd>
+                  </dl>
+                  <div class="store_search">
+                    <form action="/store" method="get">
+                      <div class="search-input-container">
+                        <input type="text" name="store_search" placeholder="Find a store in your area!">
+                        <button class="search_ok" type="submit">
+                            <img src="img/search-ico.png" alt="검색창 돋보기 이미지">
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              <!-- //cont8 -->
+            </div>
+            <!-- //section_left -->
+          </div>
+          <!-- //section4 -->
+          <div class="section5">
+            <dl class="sns_text">
+              <dt>PAIK'S COFFEE SNS</dt>
+              <dd>
+                <span>#빽다방</span>
+                <span>#빽다방신메뉴</span>
+                <span>#빽다방이벤트</span>
+              </dd>
+            </dl>
+            <!-- //sns_text -->
+            <ul class="sns_icon">
+              <li>
+                <a href="#">
+                  <img src="img/64x64_facebook-ico.png" alt="facebook아이콘 이미지">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="img/64x64_insta-ico.png" alt="insta아이콘 이미지">
+                </a>
+              </li>
+            </ul>
+            <!-- //sns_icon -->
+          </div>
+          <!-- //section5 -->
+        </div>
+        <!-- //section -->
+      </div>
+      <!-- //main_inner -->
+    </div>
+    <!-- //main -->
+    <div class="footer">
+      <div class="footer_inner">
+        <div class="topup_button">
+          <span></span>
+        </div>
+        <!-- //top_button -->
+        <div class="footer_container">
+          <a class="f_logo" href="#">
+            <img src="img/358x94_더본로고flogo.png" alt="더본로고 이미지">
+          </a>
+          <!-- //f_logo -->
+          <div class="f_logo_text">
+            <ul>
+              <li>(주)더본코리아</li>
+              <li>사업자등록번호 <span>211-86-00870</span></li>
+              <li>대표이사 백종원</li>
+            </ul>
+            <ul>
+              <li>주소: 서울시 강남구 봉은사로 <span>1</span>길<span>39</span>  유성빌딩 <span>5~6</span>층</li>
+              <li>팩스: <span>02- 511 3864</span></li>
+            </ul>
+            <ul>
+              <li>본사 대표전화: <span>02-549-3864</span></li>
+              <li>가맹상담전화: <span>02-3447-0410</span></li>
+              <li>고객센터: <span>1544-2360</span></li>
+            </ul>
+            <p class="copyright">COPYRIGHTⓒ 2018 THEBORN KOREA INK. ALL RIGHTS RESERVED</p>
+          </div>
+          <!-- //f_logo_text -->
+          <div class="family_box">
+            <div class="family_site">
+              <span>패밀리사이트 바로가기</span>
+              <ul class="family_menu" style="display: block;">
+                <li><a href="#">더본코리아</a></li>
+                <li><a href="#">창업센터</a></li>
+                <li><a href="#">새마을식당</a></li>
+                <li><a href="#">한신포차</a></li>
+                <li><a href="#">역전우동</a></li>
+                <li><a href="#">백스비어</a></li>
+                <li><a href="#">롤링파스타</a></li>
+                <li><a href="#">인생설렁탕</a></li>
+                <li><a href="#">미정국수</a></li>
+                <li><a href="#">리춘식당</a></li>
+                <li><a href="#">원조쌈밥집</a></li>
+                <li><a href="#">돌배기집</a></li>
+                <li><a href="#">백철판</a></li>
+                <li><a href="#">호텔더본</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- //family_box -->
+        </div>
+        <!-- //footer_container -->
+      </div>
+      <!-- //footer_inner -->
+    </div>
+    <!-- //footer -->
+  </div>
+  <!-- //wrap -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="js/main.js"></script>
+  <!-- //js링크 -->
+</body>
+</html>
